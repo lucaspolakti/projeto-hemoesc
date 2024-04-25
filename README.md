@@ -3,7 +3,7 @@
 Projeto da matéria de praticas extensionistas do curso de Analise e desenvolvimento de sistemas - UNOESC
 Alunos:
 * Vagner Lucas Gomes -114256
-* Lucas Polak
+* Lucas Polak - 385502
 * Alan
 
 ---
