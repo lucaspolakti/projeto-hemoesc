@@ -13,6 +13,6 @@ Alunos:
 * [Diagrama de atividades](documentacao/diagrama_de_atividade.jpg)
 * [Modelagem DB](documentacao/Model_BD.jpg)
 * [Diagrama de caso de uso geral](documentacao/DCU.jpg)
-* [Arquitetura](documentacao/arquitetura-geral.png)
+* [Arquitetura](documentacao/arquitetura_geral.png)
 * [Arquivo Visual paradigm](seuqence-diagram.vpp)
 
