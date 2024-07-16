@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Pesquisar Doadores</h1>
+<form action="/search" method="get">
+    <label for="query">Pesquisar:</label>
+    <input type="text" id="query" name="query" required>
+    <button type="submit">Pesquisar</button>
+</form>
+{% if users %}
+<table>
+    <thead>
+        <tr>
+            <th>Usuário</th>
+            <th>Email</th>
+            <th>Papel</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for user in users %}
+        <tr>
+            <td>{{ user.username }}</td>
+            <td>{{ user.email }}</td>
+            <td>{{ user.role }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endif %}
+{% endblock %}
